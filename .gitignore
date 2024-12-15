@@ -23,3 +23,5 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+v1.2/fp-info-cache
+*.zip
