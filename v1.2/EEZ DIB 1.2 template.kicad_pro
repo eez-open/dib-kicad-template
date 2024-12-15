@@ -661,5 +661,11 @@
       "ADIB connectors (optional)"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_creator": "Envox d.o.o.",
+    "project_info": "https://www.envox.eu/eez-bb3/",
+    "project_name": "EEZ DIB v1.2 template for KiCad",
+    "project_url": "https://github.com/eez-open/dib-kicad-template",
+    "project_version": "r1B1"
+  }
 }

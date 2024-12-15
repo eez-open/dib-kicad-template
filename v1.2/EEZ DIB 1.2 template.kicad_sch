@@ -1536,7 +1536,7 @@
 	)
 	(text "${project_name} ${project_version}"
 		(exclude_from_sim no)
-		(at 50.8 22.86 0)
+		(at 25.4 22.86 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1544,6 +1544,7 @@
 				(bold yes)
 				(color 132 0 132 1)
 			)
+			(justify left)
 		)
 		(uuid "669f0c8e-663a-42f1-82b8-87108aa22e92")
 	)
