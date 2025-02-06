@@ -2,9 +2,11 @@
 
 The project template makes it easy to start working on a new peripheral module and will need to be copied to your local KiCad template folder.
 
+The template was created using symbols, footprints and 3D models from [eez-kicad-libraries](https://github.com/eez-open/eez-kicad-libraries), so for proper display it is recommended to install that plugin.
+
 ### Setting up the KiCad template folder
 
-Start KiCad and in `Preferences` (1) open `Configure Paths...` (2) where you can see the currently configured Template path that you can change at will.
+Start KiCad and in `Preferences` (1) open `Configure Paths...` (2) where you can see the currently configured Template path that you can change as desired.
 
 ![config1](images/template_config1.png)
 
@@ -34,7 +36,7 @@ In the `File` menu of the Schematic Editor, select the option `Schematic Setup..
 
 ![config7](images/template_config7.png)
 
-Good luck and we wish you success and feel free to keep us updated on your progress and contact us if you need any further assistance with the EEZ DIB!
+Good luck and we wish you successful development. Feel free to keep us updated on your progress and contact us if you need further help with the EEZ DIB!
 
 ### About KiCad
 

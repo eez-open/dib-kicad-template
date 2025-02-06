@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2024-12-15")
+		(date "2025-02-06")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_url}")
@@ -1335,6 +1335,89 @@
 				)
 			)
 		)
+		(symbol "PCM_EEZ_unsorted:DIB module front mask"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FM"
+				(at 1.016 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_unsorted:DIB module front mask"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DIB module front mask_0_1"
+				(rectangle
+					(start 0 0)
+					(end 5.08 -10.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.2672)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -0.635)
+					(radius 0.2672)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "PCM_EEZ_unsorted:PCB-MB-01"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1503,6 +1586,28 @@
 	)
 	(polyline
 		(pts
+			(xy 119.38 177.8) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "6fd089b4-3284-4145-b152-ebbd8dceb040")
+	)
+	(polyline
+		(pts
+			(xy 144.78 177.8) (xy 144.78 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(uuid "d5d14274-48c5-4b5b-823e-06ad145df42f")
+	)
+	(polyline
+		(pts
 			(xy 55.88 177.8) (xy 55.88 195.58)
 		)
 		(stroke
@@ -1583,6 +1688,18 @@
 			(justify left bottom)
 		)
 		(uuid "dd32622c-8a47-4ff0-a9c3-da5086dfa1f0")
+	)
+	(text "Front mask"
+		(exclude_from_sim no)
+		(at 121.92 182.88 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+				(color 194 194 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba94b9b-f24b-4331-b3db-8d7d3209345a")
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:FIDUCIAL")
@@ -1860,6 +1977,70 @@
 			(project ""
 				(path "/8165d74e-be16-4c9d-8240-91910dc4b43e"
 					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:DIB module front mask")
+		(at 128.905 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e9f8ac1-b68c-4285-a5c1-43348f527437")
+		(property "Reference" "FM5"
+			(at 133.985 187.0074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 133.985 188.9125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_unsorted:DIB module front mask"
+			(at 128.905 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.905 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.905 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8165d74e-be16-4c9d-8240-91910dc4b43e"
+					(reference "FM5")
 					(unit 1)
 				)
 			)
