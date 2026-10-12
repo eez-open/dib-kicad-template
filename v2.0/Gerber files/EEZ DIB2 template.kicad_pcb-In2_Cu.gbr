@@ -1,0 +1,144 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.7-10.0.7~ubuntu24.04.1*%
+%TF.CreationDate,2026-10-10T18:55:06+02:00*%
+%TF.ProjectId,EEZ DIB2 template.kicad_pcb,45455a20-4449-4423-9220-74656d706c61,r1B1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L3,Inr*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.7-10.0.7~ubuntu24.04.1) date 2026-10-10 18:55:06*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%ADD10C,0.101600*%
+%TA.AperFunction,NonConductor*%
+%ADD11C,0.101600*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12C,5.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13R,1.500000X1.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14Outline8P,-0.750000X0.310660X-0.310660X0.750000X0.310660X0.750000X0.750000X0.310660X0.750000X-0.310660X0.310660X-0.750000X-0.310660X-0.750000X-0.750000X-0.310660X180.000000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X126822200Y-148574410D02*
+X127388257Y-148574410D01*
+X127388257Y-148574410D02*
+X127083457Y-148922753D01*
+X127083457Y-148922753D02*
+X127214086Y-148922753D01*
+X127214086Y-148922753D02*
+X127301172Y-148966296D01*
+X127301172Y-148966296D02*
+X127344714Y-149009839D01*
+X127344714Y-149009839D02*
+X127388257Y-149096925D01*
+X127388257Y-149096925D02*
+X127388257Y-149314639D01*
+X127388257Y-149314639D02*
+X127344714Y-149401725D01*
+X127344714Y-149401725D02*
+X127301172Y-149445268D01*
+X127301172Y-149445268D02*
+X127214086Y-149488810D01*
+X127214086Y-149488810D02*
+X126952829Y-149488810D01*
+X126952829Y-149488810D02*
+X126865743Y-149445268D01*
+X126865743Y-149445268D02*
+X126822200Y-149401725D01*
+D12*
+%TO.N,*%
+%TO.C,KK1*%
+X86500000Y-63000000D03*
+%TD*%
+D13*
+%TO.N,unconnected-(X2-Pin_1-Pad1)*%
+%TO.C,X2*%
+X93140000Y-142540000D03*
+D14*
+%TO.N,unconnected-(X2-Pin_2-Pad2)*%
+X93140000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_3-Pad3)*%
+X95680000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_4-Pad4)*%
+X95680000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_5-Pad5)*%
+X98220000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_6-Pad6)*%
+X98220000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_7-Pad7)*%
+X100760000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_8-Pad8)*%
+X100760000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_9-Pad9)*%
+X103300000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_10-Pad10)*%
+X103300000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_11-Pad11)*%
+X105840000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_12-Pad12)*%
+X105840000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_13-Pad13)*%
+X108380000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_14-Pad14)*%
+X108380000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_15-Pad15)*%
+X110920000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_16-Pad16)*%
+X110920000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_17-Pad17)*%
+X113460000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_18-Pad18)*%
+X113460000Y-140000000D03*
+%TO.N,unconnected-(X2-Pin_19-Pad19)*%
+X116000000Y-142540000D03*
+%TO.N,unconnected-(X2-Pin_20-Pad20)*%
+X116000000Y-140000000D03*
+%TD*%
+D12*
+%TO.N,*%
+%TO.C,KK2*%
+X86500000Y-147000000D03*
+%TD*%
+M02*

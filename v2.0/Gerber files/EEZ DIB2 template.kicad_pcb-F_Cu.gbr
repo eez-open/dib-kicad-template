@@ -1,0 +1,267 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.7-10.0.7~ubuntu24.04.1*%
+%TF.CreationDate,2026-10-10T18:55:06+02:00*%
+%TF.ProjectId,EEZ DIB2 template.kicad_pcb,45455a20-4449-4423-9220-74656d706c61,r1B1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L1,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.7-10.0.7~ubuntu24.04.1) date 2026-10-10 18:55:06*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%ADD10C,0.101600*%
+%TA.AperFunction,NonConductor*%
+%ADD11C,0.101600*%
+%TD*%
+%TA.AperFunction,ConnectorPad*%
+%ADD12R,0.700000X4.200000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD13C,0.750000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14C,5.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15R,1.500000X1.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16Outline8P,-0.750000X0.310660X-0.310660X0.750000X0.310660X0.750000X0.750000X0.310660X0.750000X-0.310660X0.310660X-0.750000X-0.310660X-0.750000X-0.750000X-0.310660X180.000000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X127388257Y-147075810D02*
+X126865743Y-147075810D01*
+X127127000Y-147075810D02*
+X127127000Y-146161410D01*
+X127127000Y-146161410D02*
+X127039914Y-146292039D01*
+X127039914Y-146292039D02*
+X126952829Y-146379125D01*
+X126952829Y-146379125D02*
+X126865743Y-146422668D01*
+D12*
+%TO.P,X1,B1,+12V_B1*%
+%TO.N,Net-(X1-+12V-PadB1)*%
+X133200000Y-149000000D03*
+%TO.P,X1,B2,+12V_B2*%
+X134200000Y-149000000D03*
+%TO.P,X1,B3,GND_B3*%
+%TO.N,unconnected-(X1-GND-PadB3)*%
+X135200000Y-149000000D03*
+%TO.P,X1,B4,+3V3_B4*%
+%TO.N,Net-(X1-+3V3-PadB4)*%
+X136200000Y-149000000D03*
+%TO.P,X1,B5,+3V3_B5*%
+X137200000Y-149000000D03*
+%TO.P,X1,B6,+VAUX_B6*%
+%TO.N,unconnected-(X1-+VAUX-PadB6)*%
+X138200000Y-149000000D03*
+%TO.P,X1,B7,GND_B7*%
+%TO.N,unconnected-(X1-GND-PadB7)*%
+X139200000Y-149000000D03*
+%TO.P,X1,B8,~{RESET}_B8*%
+%TO.N,unconnected-(X1-~{RESET}-PadB8)*%
+X140200000Y-149000000D03*
+%TO.P,X1,B9,~{FAULT}_B9*%
+%TO.N,unconnected-(X1-~{FAULT}-PadB9)*%
+X141200000Y-149000000D03*
+%TO.P,X1,B10,SDA/SMBDAT_B10*%
+%TO.N,unconnected-(X1-SDA{slash}SMBDAT-PadB10)*%
+X142200000Y-149000000D03*
+%TO.P,X1,B11,GND_B11*%
+%TO.N,unconnected-(X1-GND-PadB11)*%
+X143200000Y-149000000D03*
+%TO.P,X1,B12,GND_B12*%
+%TO.N,unconnected-(X1-GND-PadB12)*%
+X146197300Y-149000000D03*
+%TO.P,X1,B13,OE_SNYC/TIN_B13*%
+%TO.N,unconnected-(X1-OE_SNYC{slash}TIN-PadB13)*%
+X147197300Y-149000000D03*
+%TO.P,X1,B14,AC_FREQ_B14*%
+%TO.N,unconnected-(X1-AC_FREQ-PadB14)*%
+X148197300Y-149000000D03*
+%TO.P,X1,B15,TOUT_B15*%
+%TO.N,unconnected-(X1-TOUT-PadB15)*%
+X149197300Y-149000000D03*
+%TO.P,X1,B16,REFCLK-_B16*%
+%TO.N,unconnected-(X1-REFCLK--PadB16)*%
+X150197300Y-149000000D03*
+%TO.P,X1,B17,REFCLK+_B17*%
+%TO.N,unconnected-(X1-REFCLK+-PadB17)*%
+X151197300Y-149000000D03*
+%TO.P,X1,B18,UART_RX_B18*%
+%TO.N,unconnected-(X1-UART_RX-PadB18)*%
+X152197300Y-149000000D03*
+%TO.P,X1,B19,UART_TX_B19*%
+%TO.N,unconnected-(X1-UART_TX-PadB19)*%
+X153197300Y-149000000D03*
+%TO.P,X1,B20,BOOT_B20*%
+%TO.N,unconnected-(X1-BOOT-PadB20)*%
+X154197300Y-149000000D03*
+%TO.P,X1,B21,GND_B21*%
+%TO.N,unconnected-(X1-GND-PadB21)*%
+X155197300Y-149000000D03*
+%TO.P,X1,B22,PCIe_CLK-_B22*%
+%TO.N,unconnected-(X1-PCIe_CLK--PadB22)*%
+X156197300Y-149000000D03*
+%TO.P,X1,B23,PCIe_CLK+_B23*%
+%TO.N,unconnected-(X1-PCIe_CLK+-PadB23)*%
+X157197300Y-149000000D03*
+%TO.P,X1,B24,GND_B24*%
+%TO.N,unconnected-(X1-GND-PadB24)*%
+X158197300Y-149000000D03*
+%TO.P,X1,B25,PCIe_RX-_B25*%
+%TO.N,unconnected-(X1-PCIe_RX--PadB25)*%
+X159197300Y-149000000D03*
+%TO.P,X1,B26,PCIe_RX+_B26*%
+%TO.N,unconnected-(X1-PCIe_RX+-PadB26)*%
+X160197300Y-149000000D03*
+%TO.P,X1,B27,PCIe_TX-_B27*%
+%TO.N,unconnected-(X1-PCIe_TX--PadB27)*%
+X161197300Y-149000000D03*
+%TO.P,X1,B28,PCIe_TX+_B28*%
+%TO.N,unconnected-(X1-PCIe_TX+-PadB28)*%
+X162197300Y-149000000D03*
+%TO.P,X1,B29,~{PCIe_CLKREQ}_B29*%
+%TO.N,unconnected-(X1-~{PCIe_CLKREQ}-PadB29)*%
+X163197300Y-149000000D03*
+%TO.P,X1,B30,~{PCIe_WAKE}_B30*%
+%TO.N,unconnected-(X1-~{PCIe_WAKE}-PadB30)*%
+X164197300Y-149000000D03*
+%TO.P,X1,B31,GND_B31*%
+%TO.N,unconnected-(X1-GND-PadB31)*%
+X165197300Y-149000000D03*
+%TO.P,X1,B32,ETH_SYNC_B32*%
+%TO.N,unconnected-(X1-ETH_SYNC-PadB32)*%
+X166197300Y-149000000D03*
+%TD*%
+D13*
+%TO.P,FM4,*%
+%TO.N,*%
+X258000000Y-141000000D03*
+%TD*%
+%TO.P,FM3,*%
+%TO.N,*%
+X258000000Y-51500000D03*
+%TD*%
+%TO.P,FM2,*%
+%TO.N,*%
+X78000000Y-141000000D03*
+%TD*%
+D14*
+%TO.P,KK1,*%
+%TO.N,*%
+X86500000Y-63000000D03*
+%TD*%
+D13*
+%TO.P,FM1,*%
+%TO.N,*%
+X78000000Y-69000000D03*
+%TD*%
+D15*
+%TO.P,X2,1,Pin_1_1*%
+%TO.N,unconnected-(X2-Pin_1-Pad1)*%
+X93140000Y-142540000D03*
+D16*
+%TO.P,X2,2,Pin_2_2*%
+%TO.N,unconnected-(X2-Pin_2-Pad2)*%
+X93140000Y-140000000D03*
+%TO.P,X2,3,Pin_3_3*%
+%TO.N,unconnected-(X2-Pin_3-Pad3)*%
+X95680000Y-142540000D03*
+%TO.P,X2,4,Pin_4_4*%
+%TO.N,unconnected-(X2-Pin_4-Pad4)*%
+X95680000Y-140000000D03*
+%TO.P,X2,5,Pin_5_5*%
+%TO.N,unconnected-(X2-Pin_5-Pad5)*%
+X98220000Y-142540000D03*
+%TO.P,X2,6,Pin_6_6*%
+%TO.N,unconnected-(X2-Pin_6-Pad6)*%
+X98220000Y-140000000D03*
+%TO.P,X2,7,Pin_7_7*%
+%TO.N,unconnected-(X2-Pin_7-Pad7)*%
+X100760000Y-142540000D03*
+%TO.P,X2,8,Pin_8_8*%
+%TO.N,unconnected-(X2-Pin_8-Pad8)*%
+X100760000Y-140000000D03*
+%TO.P,X2,9,Pin_9_9*%
+%TO.N,unconnected-(X2-Pin_9-Pad9)*%
+X103300000Y-142540000D03*
+%TO.P,X2,10,Pin_10_10*%
+%TO.N,unconnected-(X2-Pin_10-Pad10)*%
+X103300000Y-140000000D03*
+%TO.P,X2,11,Pin_11_11*%
+%TO.N,unconnected-(X2-Pin_11-Pad11)*%
+X105840000Y-142540000D03*
+%TO.P,X2,12,Pin_12_12*%
+%TO.N,unconnected-(X2-Pin_12-Pad12)*%
+X105840000Y-140000000D03*
+%TO.P,X2,13,Pin_13_13*%
+%TO.N,unconnected-(X2-Pin_13-Pad13)*%
+X108380000Y-142540000D03*
+%TO.P,X2,14,Pin_14_14*%
+%TO.N,unconnected-(X2-Pin_14-Pad14)*%
+X108380000Y-140000000D03*
+%TO.P,X2,15,Pin_15_15*%
+%TO.N,unconnected-(X2-Pin_15-Pad15)*%
+X110920000Y-142540000D03*
+%TO.P,X2,16,Pin_16_16*%
+%TO.N,unconnected-(X2-Pin_16-Pad16)*%
+X110920000Y-140000000D03*
+%TO.P,X2,17,Pin_17_17*%
+%TO.N,unconnected-(X2-Pin_17-Pad17)*%
+X113460000Y-142540000D03*
+%TO.P,X2,18,Pin_18_18*%
+%TO.N,unconnected-(X2-Pin_18-Pad18)*%
+X113460000Y-140000000D03*
+%TO.P,X2,19,Pin_19_19*%
+%TO.N,unconnected-(X2-Pin_19-Pad19)*%
+X116000000Y-142540000D03*
+%TO.P,X2,20,Pin_20_20*%
+%TO.N,unconnected-(X2-Pin_20-Pad20)*%
+X116000000Y-140000000D03*
+%TD*%
+D14*
+%TO.P,KK2,*%
+%TO.N,*%
+X86500000Y-147000000D03*
+%TD*%
+M02*
