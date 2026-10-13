@@ -14,13 +14,13 @@ Start KiCad and in `Preferences` (1) open `Configure Paths...` (2) where you can
 
 ### Copying a template and creating a new project from the template
 
-Copy the complete contents of the template folder from this repository into it (e.g. `v1.2`)
+Copy the complete contents of the template folder from this repository into it (e.g. `v2.0`)
 
-Now you are ready to use the EEZ DIB template for your new project. To do this, you will need to select the `New Project from Template...` option from the `File` menu (3).
+Now you are ready to use the EEZ DIB template for your new project. To do this, you will need to select the `New Project...` option from the `File` menu (3).
 
 ![config3](images/template_config3.png)
 
-Under the `User Templates` tab, find the EEZ DIB template (4) and confirm the selection with `OK` (5).
+Select `User Templates`, and find the EEZ DIB template (4) and confirm the selection with `OK` (5).
 
 ![config4](images/template_config4.png)
 
